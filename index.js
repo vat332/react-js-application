@@ -2,6 +2,7 @@ const nav = (
   <nav>
     <h1>OliS</h1>
     <ul>
+      <li>Menu</li>
       <li>Cennik</li>
       <li>O nas</li>
       <li>Kontakt</li>
