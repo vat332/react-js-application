@@ -1,13 +1,16 @@
-const nav = (
-  <nav>
-    <h1>OliS</h1>
-    <ul>
-      <li>Menu</li>
-      <li>Cennik</li>
-      <li>O nas</li>
-      <li>Kontakt</li>
-    </ul>
-  </nav>
-);
+function Page() {
+  return (
+    <div>
+      <h1>Chce się uczyć React.js</h1>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+    </div>
+  );
+}
 
-ReactDOM.render(nav, document.getElementById("navbar"));
+ReactDOM.render(<Page />, document.getElementById("navbar"));
