@@ -16,6 +16,13 @@
 body{
   margin: 0;
   display: flex;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-image: url(./assets/uwm_logo4.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  background-size: 35%;
 }
 
 .nav {
@@ -34,12 +41,18 @@ body{
   padding: 10px;
 
 }
-
+.logo-img{
+  width: 50px;
+}
 .content {
   margin: 50px;
 }
-.logo-img{
-  width: 50px;
+.content-list{
+  max-width: 200px;
+}
+.content-list > li::marker {
+  font-size: 2rem;
+  color:aqua;
 }
 
 .footer{
