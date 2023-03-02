@@ -1,16 +1,16 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Content from './components/Content'
+import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card from './components/Card';
 
 function App() {
   return (
     <div id="root">
       <Navbar />
-      <Content />
-      <Footer />
+      <Hero />
+      <Card />
     </div>
   )
-}
+};
 
-export default App
+export default App;
