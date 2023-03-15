@@ -1,12 +1,11 @@
 import React from 'react';
-import Image from '../assets/katie-zaferes.png'
-import Image_star from '../assets/star.png'
+import Image_star from '/assets/star.png'
 
 function Card(props){
     console.log(props)
     return(
         <div className="card">
-        <img src={`../assets/${props.img}`} className="card--image" />
+        <img src={`/assets/${props.img}`} className="card--image" />
             <div className="card--stats">
                 <img src={Image_star} className="card--star"/>
                 <span className="card--title">{props.rating}</span>

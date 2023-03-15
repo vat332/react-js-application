@@ -1,5 +1,5 @@
 import React from 'react';
-import PhotoGrid from '../assets/photo-grid.png';
+import PhotoGrid from '/assets/photo-grid.png';
 
 function Hero(){
     return(
