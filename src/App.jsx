@@ -5,20 +5,14 @@ import Card from './components/Card';
 import cardData from './data.js';
 
 function App() {
-  const cardElements = cardData.map(data =>{
+  const cardElements = cardData.map(item =>{
     return ( 
       <Card
-        key={data.id}
-        img={data.coverImg}
-        rating={data.stats.rating}
-        reviewCount={data.stats.reviewCount}
-        location={data.location}
-        title={data.title}
-        price={data.price}
-        openSpots={data.openSpots}
+        key={item.id}
+        item={item}
+        //Można zrobić {...item}, ale trzeba usunąć w komponencie item przy props
       />
   )})
-
   return (
     <div id="root">
       <Navbar />
