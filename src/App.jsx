@@ -1,11 +1,14 @@
 import './App.css';
+import Header from './components/Header';
+import Meme from './components/Meme';
 
 function App() {
   return (
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div id='root'>
+      <Header />
+      <Meme />
     </div>
-  )
-};
+  );
+}
 
 export default App;

@@ -1,8 +1,60 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 15px 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+/*Standardowa wielkość czcionki jest 16 px czyli aby bylo 20 robi się 1.25*16(rem) */
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px; /* Przerwa między inputami */
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  border: none; /* Usuniecie std ramki*/
+  cursor: pointer; /* Kursor pointer*/
+}
+
+.form--input {
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border: 1px solid;
+  text-indent: 5px; /* Przerwa od krawedzi inputu(wcięcie)*/
 }
